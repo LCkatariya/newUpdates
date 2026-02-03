@@ -45,6 +45,7 @@ jobs:
           script: sudo systemctl reload nginx
 
 
+
 # // if you want backup then use this code 
   # ---------- BACKUP STEP ----------
       # - name: Backup current production (keep last 5)

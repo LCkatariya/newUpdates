@@ -16,6 +16,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <button id="counter" type="button"></button>
       hellow
     </div>
+    <div>hi my name is lalchand</div>
     <p class="read-the-docs">
       Click on the Vite and TypeScript logos to learn more
     </p>

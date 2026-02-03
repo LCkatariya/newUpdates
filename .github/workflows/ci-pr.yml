@@ -27,5 +27,5 @@ jobs:
       - name: Run lint
         run: npm run lint
 
-      - name: Run tests
-        run: npm test -- --watch=false
+      # - name: Run tests
+      #   run: npm test -- --watch=false

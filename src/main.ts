@@ -14,8 +14,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h1>Vite + TypeScript + Lalchand is a software engineer</h1>
     <div class="card">
       <button id="counter" type="button"></button>
+      hellow
     </div>
-    <div>hi my name is lalchand</div>
+    <div>hi my name is lalchand saini</div>
     <p class="read-the-docs">
       Click on the Vite and TypeScript logos to learn more
     </p>

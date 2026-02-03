@@ -3,7 +3,7 @@ name: CD - Build & Deploy
 on:
   push:
     branches:
-      - main
+      - feature
 
 jobs:
   deploy:
@@ -43,6 +43,7 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: sudo systemctl reload nginx
+
 
 
 # // if you want backup then use this code 

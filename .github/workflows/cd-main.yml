@@ -33,7 +33,8 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "dist/"
-          target: "/var/www/html/app"
+          target: ${{ secrets.EC2_PATH }}
+          strip_components: 1
 
       - name: Reload Nginx
         uses: appleboy/ssh-action@v1.0.3

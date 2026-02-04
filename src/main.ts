@@ -18,7 +18,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
     <div>hi my name is lalchand saini</div>
     <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
+      Click on the Vite and TypeScript logos to learn more hello firend what do you do
     </p>
   </div>
 `
